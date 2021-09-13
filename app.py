@@ -4,7 +4,7 @@ import time
 import os
 import json
 
-token = "1687546243:AAGn80JjkZOBfwa8dN83_tXx0roER9FDX8s"
+token = "1970552219:AAFJxP57OTWsWKQ7l1feSY9UFboNL9ihC78"
 bot = telepot.Bot(token)
 
 queue = {
@@ -17,7 +17,7 @@ def saveConfig(data):
 
 if __name__ == '__main__':
 	s = time.time()
-	print('[#] Swirlbot 2\n[i] Created by TheFamilyTeam - @TheFamilyTeam\n')
+	print('[#] Swirlbot 2\n[i] Created by TheFamilyTeam - @AndiNrdnsyh\n')
 	print('[#] Checking config...')
 	if not os.path.isfile('config.json'):
 		print('[#] Creating config file...')
